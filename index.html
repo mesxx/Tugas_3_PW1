@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMULIR PENDAFTARAN BPJS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container py-5">
+      <main>
+        <form class="form">
+          <div class="row">
+            <div class="col-11">
+              <h1 class="w-100 mb-3 p-1 text-center fs-5 bg-light">
+                FORMULIR PENDAFTARAN BADAN USAHA / BADAN HUKUM LAINNYA PEKERJA
+                PENERIMA UPAH (PPU)
+              </h1>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-2 mb-1">
+              <div class="mb-3 form-check d-flex align-items-center">
+                <input
+                  type="radio"
+                  class="form-check-input form-check-input-lg form-check-input-style"
+                  name="form_status"
+                  id="register-baru"
+                />
+                <label
+                  class="form-check-label fs-6 fw-bold px-2"
+                  for="register-baru"
+                  >Register Baru</label
+                >
+              </div>
+            </div>
+            <div class="col-2 mb-1">
+              <div class="mb-3 form-check d-flex align-items-center">
+                <input
+                  type="radio"
+                  class="form-check-input form-check-input-lg form-check-input"
+                  name="form_status"
+                  id="perubahan-data"
+                />
+                <label
+                  class="form-check-label fs-6 fw-bold px-2"
+                  for="perubahan-data"
+                  >Perubahan Data</label
+                >
+              </div>
+            </div>
+            <div class="col-7 mb-1">
+              <table class="table-bordered w-100">
+                <tr>
+                  <td class="p-1">
+                    <div class="d-flex mb-1 align-items-end">
+                      <label
+                        for="diverifikasi-oleh"
+                        class="form-label text-nowrap col-form-label"
+                        >Diverifikasi oleh :</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control form-control-sm form-control-bordered"
+                        id="diverifikasi-oleh"
+                        placeholder="Diverifikasi oleh"
+                        required
+                      />
+                    </div>
+                    <div class="d-flex mb-0 align-items-end">
+                      <label
+                        for="diverifikasi-tanggal"
+                        class="form-label text-nowrap"
+                        >Tgl.</label
+                      >
+                      <input
+                        type="date"
+                        class="form-control form-control-sm form-control-bordered"
+                        id="diverifikasi-tanggal"
+                        required
+                      />
+                    </div>
+                  </td>
+                  <td class="p-1">
+                    <div class="d-flex mb-1 align-items-end">
+                      <label for="direkam-oleh" class="form-label text-nowrap"
+                        >Direkam oleh :</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control form-control-sm form-control-bordered"
+                        id="direkam-oleh"
+                        placeholder="Direkam oleh"
+                        required
+                      />
+                    </div>
+                    <div class="d-flex mb-0 align-items-end">
+                      <label
+                        for="direkam-tanggal"
+                        class="form-label text-nowrap"
+                        >Tgl.</label
+                      >
+                      <input
+                        type="date"
+                        class="form-control form-control-sm form-control-bordered"
+                        id="direkam-tanggal"
+                        required
+                      />
+                    </div>
+                  </td>
+                  <td class="p-1">
+                    <div class="d-flex mb-1 align-items-end">
+                      <label
+                        for="disetujui-kabid-ppk"
+                        class="form-label text-nowrap"
+                        >Disetujui Kabid PPK</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control form-control-sm form-control-bordered"
+                        id="disetujui-kabid-ppk"
+                        placeholder="Disetujui Kabid PPK"
+                        required
+                      />
+                    </div>
+                    <div class="d-flex mb-0 align-items-end">
+                      <label
+                        for="disetujui-kabid-ppk-tanggal"
+                        class="form-label text-nowrap"
+                        >Tgl.</label
+                      >
+                      <input
+                        type="date"
+                        class="form-control form-control-sm form-control-bordered"
+                        id="disetujui-kabid-ppk-tanggal"
+                        required
+                      />
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-11">
+              <hr class="my-2" />
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Kode Badan Usaha/Badan Hukum Lainnya</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm w-100"
+                  placeholder="Diisi oleh petugas"
+                  disabled
+                />
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="row align-items-center justify-content-end">
+                <p class="m-0 w-auto">No. <i>Virtual Account</i></p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm w-100"
+                  placeholder="Diisi oleh petugas"
+                  disabled
+                />
+              </div>
+            </div>
+            <div class="col-12">
+              <small class="text-muted"
+                >(Diisi oleh petugas BPJS Kesehatan)</small
+              >
+            </div>
+            <div class="col-11">
+              <hr class="mt-1 mb-2" />
+            </div>
+            <div class="col-11 mb-3">
+              <h2 class="w-100 mb-0 p-1 fs-6 bg-light">
+                IDENTITAS BADAN USAHA / BADAN HUKUM LAINNYA
+              </h2>
+            </div>
+            <div class="col-1">
+              <p class="m-0">Verifikasi</p>
+            </div>
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Nama Badan Usaha/Badan Hukum Lainnya</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Nama Badan Usaha/Badan Hukum Lainnya"
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Alamat Badan Usaha/Badan Hukum Lainnya</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="JL. ..."
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3"></div>
+            <div class="col-2">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Kelurahan</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Kelurahan"
+                />
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Kecamatan</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Kecamatan"
+                />
+              </div>
+            </div>
+            <div class="col-1"></div>
+
+            <div class="col-3"></div>
+            <div class="col-2">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Kab./Kota</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Kab./Kota"
+                />
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Kode Pos</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Kode Pos"
+                  min="10000"
+                  max="99999"
+                />
+              </div>
+            </div>
+            <div class="col-1"></div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Telepon</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Telepon"
+                  min="100000000000"
+                  max="9999999999999"
+                />
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Faksimilisi</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Faksimilisi"
+                  min="100000000000"
+                  max="9999999999999"
+                />
+              </div>
+            </div>
+            <div class="col-1"></div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto"><i>E-Mail</i></p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-1">
+                <input
+                  type="email"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+            <div class="col-5"></div>
+
+            <div class="col-3">
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex flex-column">
+                  <p class="m-0">Status Badan Usaha/Badan Hukum Lainnya</p>
+                  <small class="text-muted">(Pilih salah satu)</small>
+                </div>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="radio"
+                  name="status_badan"
+                  class="form-check-input form-check-input-style"
+                  id="status-pusat"
+                />
+                <label class="form-check-label px-1" for="status-pusat"
+                  >Pusat</label
+                >
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="radio"
+                  name="status_badan"
+                  class="form-check-input form-check-input-style"
+                  id="status-cabang"
+                />
+                <label class="form-check-label px-1" for="status-cabang"
+                  >Cabang</label
+                >
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="radio"
+                  name="status_badan"
+                  class="form-check-input form-check-input-style"
+                  id="status-anak-perusahaan"
+                />
+                <label
+                  class="form-check-label px-1"
+                  for="status-anak-perusahaan"
+                  >Anak Perusahaan</label
+                >
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="radio"
+                  name="status_badan"
+                  class="form-check-input form-check-input-style"
+                  id="status-cabang-anak-perusahaan"
+                />
+                <label
+                  class="form-check-label px-1"
+                  for="status-cabang-anak-perusahaan"
+                  >Cabang Anak Perusahaan</label
+                >
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="d-flex align-items-center">
+                <div class="form-check d-flex align-items-center">
+                  <input
+                    type="radio"
+                    name="status_badan"
+                    class="form-check-input form-check-input-style"
+                    id="status-lainnya"
+                  />
+                  <label class="form-check-label px-1" for="status-lainnya"
+                    >Lainnya<sup>***)</sup></label
+                  >
+                </div>
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="....."
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Bentuk Badan Hukum</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Bentuk Badan Hukum"
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Nomor Induk Berusaha (NIB)</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Nomor Induk Berusaha (NIB)"
+                  min="1000000000000"
+                  max="99999999999999"
+                />
+              </div>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">
+                  Nomor Izin Usaha/ Izin Lainnya (Akta,MOU, dll)
+                </p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-7">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Nomor Izin Usaha/ Izin Lainnya (Akta,MOU, dll)"
+                  min="100000000000000000000000"
+                  max="9999999999999999999999999"
+                />
+              </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Jenis Usaha Utama</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Jenis Usaha Utama"
+                />
+              </div>
+            </div>
+            <div class="col-1"></div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">NPWP Badan/Perorangan</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="XX.XXX.XXX.X-X.XX"
+                />
+              </div>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Nama Pimpinan Badan Usaha/Badan Hukum</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Nama Pimpinan Badan Usaha/Badan Hukum"
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-12">
+              <p class="m-0 w-auto">Lainnya :</p>
+            </div>
+
+            <div class="col-3">
+              <div class="d-flex align-items-center justify-content-between">
+                <p class="m-0">Status Kepemilikan Badan Usaha/Badan Hukum</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  name="status_kepemilikan"
+                  class="form-check-input"
+                  id="kepemilikan-swasta-nasional"
+                />
+                <label
+                  class="form-check-label px-1"
+                  for="kepemilikan-swasta-nasional"
+                  >Swasta Nasional</label
+                >
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  name="status_kepemilikan"
+                  class="form-check-input"
+                  id="kepemilikan-bumn"
+                />
+                <label class="form-check-label px-1" for="kepemilikan-bumn"
+                  >BUMN</label
+                >
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  name="status_kepemilikan"
+                  class="form-check-input"
+                  id="kepemilikan-koperasi"
+                />
+                <label class="form-check-label px-1" for="kepemilikan-koperasi"
+                  >Koperasi</label
+                >
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  name="status_kepemilikan"
+                  class="form-check-input"
+                  id="kepemilikan-joint-venture"
+                />
+                <label
+                  class="form-check-label px-1"
+                  for="kepemilikan-joint-venture"
+                  ><i>Joint Venture</i></label
+                >
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="d-flex align-items-center">
+                <div class="form-check d-flex align-items-center">
+                  <input
+                    type="checkbox"
+                    name="status_kepemilikan"
+                    class="form-check-input"
+                    id="kepemilikan-lainnya"
+                  />
+                  <label class="form-check-label px-1" for="kepemilikan-lainnya"
+                    >Lainnya<sup>***)</sup></label
+                  >
+                </div>
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="....."
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="d-flex align-items-center justify-content-between">
+                <p class="m-0">Lainnya</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  name="status_kepemilikan_lainnya"
+                  class="form-check-input"
+                  id="kepemilikan-l-swasta-asing"
+                />
+                <label
+                  class="form-check-label px-1"
+                  for="kepemilikan-l-swasta-asing"
+                  >Swasta Asing</label
+                >
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  name="status_kepemilikan_lainnya"
+                  class="form-check-input"
+                  id="kepemilikan-l-bumd"
+                />
+                <label class="form-check-label px-1" for="kepemilikan-l-bumd"
+                  >BUMD</label
+                >
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  name="status_kepemilikan_lainnya"
+                  class="form-check-input"
+                  id="kepemilikan-l-yayasan"
+                />
+                <label class="form-check-label px-1" for="kepemilikan-l-yayasan"
+                  >Yayasan</label
+                >
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  name="status_kepemilikan_lainnya"
+                  class="form-check-input"
+                  id="kepemilikan-l-ykk"
+                />
+                <label class="form-check-label px-1" for="kepemilikan-l-ykk"
+                  >YKK<sup>**)</sup></label
+                >
+              </div>
+            </div>
+            <div class="col-1"></div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Jenis Usaha</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Jenis Usaha"
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">
+                  Kode Klasifikasi Baku Lapangan Usaha Indonesia
+                </p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Kode Klasifikasi Baku Lapangan Usaha Indonesia"
+                  min="1000000000000000"
+                  max="99999999999999999"
+                />
+              </div>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="d-flex align-items-center justify-content-between">
+                <p class="m-0">Nama Bank</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  name="bank"
+                  class="form-check-input"
+                  id="bank-mandiri"
+                />
+                <label class="form-check-label px-1" for="bank-mandiri"
+                  >Bank Mandiri</label
+                >
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  name="bank"
+                  class="form-check-input"
+                  id="bank-bri"
+                />
+                <label class="form-check-label px-1" for="bank-bri">BRI</label>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  name="bank"
+                  class="form-check-input"
+                  id="bank-bni"
+                />
+                <label class="form-check-label px-1" for="bank-bni">BNI</label>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="d-flex align-items-center">
+                <div class="form-check d-flex align-items-center">
+                  <input
+                    type="checkbox"
+                    name="bank"
+                    class="form-check-input"
+                    id="bank-lainnya"
+                  />
+                  <label class="form-check-label px-1" for="bank-lainnya"
+                    >Lainnya<sup>***)</sup></label
+                  >
+                </div>
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="....."
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+            <!-- [END] Section 3 Form -->
+            <!-- [START] Section 4 Form -->
+            <div class="col-11 mb-3">
+              <h2 class="w-100 mb-0 p-1 fs-6 bg-light">
+                IDENTITAS <i>CONTACT PERSON</i> BADAN USAHA / BADAN HUKUM
+                LAINNYA
+              </h2>
+            </div>
+            <div class="col-1"></div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Nama Lengkap</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Nama Lengkap"
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Jabatan</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="mb-1">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Jabatan"
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Telepon dan <i>Extention</i></p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Telepon"
+                  min="10000000000000"
+                  max="999999999999999"
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto"><i>Ext</i></p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Extention"
+                  min="10000"
+                  max="99999"
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Faksimili</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Faksimili"
+                  min="100000000000"
+                  max="9999999999999"
+                />
+              </div>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto"><i>Handphone</i></p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Handphone"
+                  min="1000000000000"
+                  max="99999999999999"
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto"><i>E-mail</i></p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="mb-1">
+                <input
+                  type="email"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+            <!-- [END] Section 4 Form -->
+            <!-- [START] Section 5 Form -->
+            <div class="col-11 mb-3">
+              <h2 class="w-100 mb-0 p-1 fs-6 bg-light">
+                KEIKUTSERTAAN PROGRAM JAMINAN KESEHATAN NASIONAL (JKN)
+              </h2>
+            </div>
+            <div class="col-1"></div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">
+                  Menjadi Peserta Terhitung Mulai Tanggal
+                </p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Tgl"
+                  min="1"
+                  max="31"
+                  disabled
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Bln"
+                  min="1"
+                  max="12"
+                  disabled
+                />
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Tahun"
+                  min="1000"
+                  max="9999"
+                  disabled
+                />
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">*Diisi Oleh Petugas BPJS</p>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Jumlah Tenaga Kerja</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Jumlah Tenaga Kerja"
+                  min="1"
+                  max="9999"
+                />
+              </div>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Jumlah Keluarga</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Jumlah Keluarga"
+                  min="0"
+                  max="99"
+                />
+              </div>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="row align-items-center justify-content-between">
+                <p class="m-0 w-auto">Total Tenaga Kerja dan Keluarga</p>
+                <p class="m-0 w-auto">:</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="mb-1">
+                <input
+                  type="number"
+                  class="form-control form-control-sm form-control-bordered w-100"
+                  placeholder="Total Tenaga Kerja dan Keluarga"
+                  min="1"
+                  max="9999"
+                />
+              </div>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-1">
+              <div class="form-check w-100">
+                <input
+                  type="checkbox"
+                  class="form-check-input form-check-input-lg w-100"
+                />
+              </div>
+            </div>
+            <!-- [END] Section 5 Form -->
+            <div class="col-12">
+              <hr class="my-2" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 mb-3">
+              <h2 class="w-100 mb-0 p-1 fs-5 text-center">SURAT PERNYATAAN</h2>
+              <p class="mb-0"><b>Saya menyatakan bahwa :</b></p>
+              <ol>
+                <li class="fw-bold">
+                  <p class="fw-light m-0 mb-1">
+                    Informasi ini dibuat dengan sebenarnya, apabila informasi
+                    ini tidak benar maka saya bersedia dikenakan sanksi sesuai
+                    dengan peraturan perundang-undangan yang berlaku.
+                  </p>
+                </li>
+                <li class="fw-bold">
+                  <p class="fw-light m-0 mb-1">
+                    Bahwa informasi terkait data pegawai dan anggota keluarga
+                    dan jumlah gaji yang disampaikan adalah sesuai dengan
+                    kondisi sebenarnya sesuai dengan peraturan
+                    perundang-undangan yang berlaku.
+                  </p>
+                </li>
+                <li class="fw-bold">
+                  <p class="fw-light m-0 mb-1">
+                    Menerima amanah dari Pekerja untuk memotong, memungut, dan
+                    menyetorkan iuran dari besaran upah/gaji dan tunjangan tetap
+                    Pekerja setiap bulan sesuai Undang-Undang No 40 Tahun 2004
+                    Pasal 17 Ayat 1 & 2.
+                  </p>
+                </li>
+                <li class="fw-bold">
+                  <p class="fw-light m-0 mb-1">
+                    Menyetujui bahwa iuran yang dibayarkan sebagai hibah dan
+                    tidak dikembalikan sekalipun belum mendapatkan manfaat
+                    pelayanan kesehatan dan iuran tersebut sudah diikhlaskan
+                    untuk menolong peserta lain yang membutuhkan sebagai bentuk
+                    gotong royong.
+                  </p>
+                </li>
+                <li class="fw-bold">
+                  <p class="fw-light m-0 mb-1">
+                    Memberikan kuasa kepada BPJS Kesehatan untuk mengelola dana
+                    amanat beserta hasil pengembangannya agar digunakan
+                    sebesar-besarnya untuk pembayaran manfaat kepada Peserta
+                    sesuai Peraturan Perundang-Undangan.
+                  </p>
+                </li>
+                <li class="fw-bold">
+                  <p class="fw-light m-0 mb-1">
+                    Memberikan kuasa kepada BPJS Kesehatan untuk menggunakan
+                    informasi medis peserta baik dari rekam medis maupun dokumen
+                    pendukung lainnya jika diperlukan.
+                  </p>
+                </li>
+                <li class="fw-bold">
+                  <p class="fw-light m-0 mb-1">
+                    Atas kuasa pengelolaan dana amanat sebagaimana tercantum
+                    pada angka 4, BPJS Kesehatan berhak untuk mendapatkan dana
+                    operasional penyelenggaraan program Jaminan Kesehatan
+                    Nasional dari sebagian iuran peserta yang besarnya sesuai
+                    dengan Peraturan Perundang-Undangan.
+                  </p>
+                </li>
+              </ol>
+            </div>
+
+            <div class="col-12 m-0">
+              <p class="m-0 w-auto">
+                BPJS Kesehatan menerima kuasa pengelolaan jaminan kesehatan
+                peserta
+              </p>
+            </div>
+
+            <div class="col-8 mt-0 mb-1">
+              <p class="m-0 w-auto">BPJS Kesehatan,</p>
+            </div>
+            <div class="col-4 mt-0 mb-1">
+              <div class="d-flex mb-1 align-items-end">
+                <input
+                  type="text"
+                  class="form-control form-control-sm form-control-bordered w-25"
+                  required
+                />
+                <p class="m-0 h-100">,</p>
+                <input
+                  type="date"
+                  class="form-control form-control-sm form-control-bordered w-75"
+                  min="2000-01-01"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="col-8 mb-1"></div>
+            <div class="col-4 mb-1">
+              <p class="m-0 w-auto">Pimpinan/HRD/Pihak yang diberi kuasa</p>
+            </div>
+
+            <div class="col-7 mb-1"></div>
+            <div class="col-5 mb-1">
+              <table class="table-bordered mx-5 w-25" height="164">
+                <tr>
+                  <td class="p-1 align-top">
+                    <p class="m-0 w-auto text-center">materai</p>
+                    <p class="m-0 w-auto text-center">Rp.6000,-</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="col-3 mt-0 mb-3">
+              <input
+                type="text"
+                class="form-control form-control-sm form-control-bordered"
+                required
+              />
+            </div>
+            <div class="col-5"></div>
+            <div class="col-4 mt-0 mb-1">
+              <input
+                type="text"
+                class="form-control form-control-sm form-control-bordered"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <p class="m-0"><u>Catatan</u> :</p>
+              <p class="m-0">
+                *diisi nama lengkap, tanda tangan dan stempel Perusahaan
+              </p>
+              <p class="m-0">** Yayasan Kesejahteraan Karyawan</p>
+              <p class="m-0">*** Sebutkan</p>
+            </div>
+          </div>
+        </form>
+      </main>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
